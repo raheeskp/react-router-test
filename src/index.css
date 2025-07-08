@@ -1,1 +1,9 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .get-a-quote-button{
+        @apply bg-BACKGROUND flex items-center justify-center px-10 text-xl text-white gap-2
+    }
+}
